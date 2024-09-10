@@ -8,13 +8,13 @@ const HomeHero = () => {
               className="relative rounded-full px-4 py-1.5 text-sm leading-6 text-gray-600 ring-1 ring-inset ring-gray-900/10 hover:ring-gray-900/20">
               <a href="#" target="_blank" className="font-semibold text-lime-600 uppercase">
                 <span className="absolute inset-0" ></span> Schedule
-                 &nbsp; <span>→</span>
+                 &nbsp; <span>{'→'}</span>
               </a>
             </p>
           </div>
           <div className="mx-auto max-w-2xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              A Plus Taylor's Martial Arts and Fitness
+              A Plus Taylor&apos;s Martial Arts and Fitness
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               At our karate gym, we’re all about helping people of all ages get stronger and more confident through karate. Our friendly instructors teach you not just how to defend yourself, but also how to stay disciplined and respectful. Whether you’re just starting out or looking to perfect your skills, our classes are here to help you reach your goals. Come join us to get fit, learn new moves, and be part of a supportive community!

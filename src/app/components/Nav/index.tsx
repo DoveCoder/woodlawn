@@ -4,7 +4,7 @@ const Nav = () => {
       <div className="container mx-auto flex items-center h-24 justify-between">
         <a href="#" className="flex items-center justify-center">
           {/*image*/}
-          <span className="ml-4 uppercase font-black">A Plus Taylor's <br /> Martial Arts and Fitness</span>
+          <span className="ml-4 uppercase font-black">A Plus Taylor&apos;s Martial Arts and Fitness</span>
         </a>
         <nav className="contents font-semibold text-base lg:text-lg hidden md:block">
           <ul className="mx-auto flex item-center">

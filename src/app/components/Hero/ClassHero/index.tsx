@@ -13,7 +13,7 @@ const ClassHero = ({reverse}) => {
             Have you ever tried kickboxing, or are you thinking about starting?
           </p>
           <div className="mt-11">
-            <button>-></button>
+            <button>{'->'}</button>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ const ClassHero = ({reverse}) => {
           Have you ever tried kickboxing, or are you thinking about starting?
         </p>
         <div className="mt-11">
-          <button>-></button>
+          <button>{'->'}</button>
         </div>
       </div>
 
