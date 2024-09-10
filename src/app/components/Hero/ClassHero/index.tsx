@@ -1,6 +1,6 @@
 "use client"
 // classHero
-const ClassHero = ({reverse}) => {
+const ClassHero = ({reverse}: boolean) => {
   if (reverse) {
     return (
       <div className={`flex flex-row-reverse justify-between items-center max-lg:flex-col gap-10 w-full`}>
