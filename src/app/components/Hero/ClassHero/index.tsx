@@ -1,5 +1,5 @@
 "use client"
-
+// classHero
 const ClassHero = ({reverse}) => {
   if (reverse) {
     return (
