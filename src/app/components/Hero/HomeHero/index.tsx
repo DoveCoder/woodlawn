@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const HomeHero = () => {
   return (
     <>
@@ -6,10 +8,10 @@ const HomeHero = () => {
           <div className="mb-8 flex justify-center">
             <p
               className="relative rounded-full px-4 py-1.5 text-sm leading-6 text-gray-600 ring-1 ring-inset ring-gray-900/10 hover:ring-gray-900/20">
-              <a href="#" target="_blank" className="font-semibold text-lime-600 uppercase">
+              <Link href={'/schedule'} className="font-semibold text-lime-600 uppercase">
                 <span className="absolute inset-0" ></span> Schedule
                  &nbsp; <span>{'→'}</span>
-              </a>
+              </Link>
             </p>
           </div>
           <div className="mx-auto max-w-2xl text-center">
