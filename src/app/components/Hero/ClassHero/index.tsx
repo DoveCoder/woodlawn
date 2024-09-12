@@ -3,7 +3,7 @@
 const ClassHero = ({reverse}: {reverse: boolean}) => {
   if (reverse) {
     return (
-      <div className={`flex flex-row-reverse justify-between items-center max-lg:flex-col gap-10 w-full`}>
+      <div className={`flex flex-row-reverse justify-between items-center max-lg:flex-col gap-10 w-full mb-3.5`}>
         <div className="flex flex-1 flex-col">
           <h2 className="text-4xl capitalize font-bold lg:max-w-lg">
             Kickboxing
@@ -25,7 +25,7 @@ const ClassHero = ({reverse}: {reverse: boolean}) => {
   }
 
   return (
-    <div className={`flex justify-between items-center max-lg:flex-col gap-10 w-full`}>
+    <div className={`flex justify-between items-center max-lg:flex-col gap-10 w-full mb-3.5`}>
       <div className="flex flex-1 flex-col">
         <h2 className="text-4xl capitalize font-bold lg:max-w-lg">
           Kickboxing

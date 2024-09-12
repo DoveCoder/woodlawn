@@ -8,7 +8,7 @@ export default function Home() {
         <HomeHero/>
       </section>
 
-      <section id="classes">
+      <section id="classes" className="container mx-auto">
         <ClassHero reverse={false}/>
         <ClassHero reverse={true}/>
         <ClassHero reverse={false}/>

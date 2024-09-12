@@ -1,13 +1,23 @@
 const Footer = () => {
   return (
-    <footer className="container">
-      <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
-        <div className="flex flex-col items-start">
-          {/* image */}
-        </div>
-        <p className="mt-6 text-base leading-7 text-white-400 sm:max-w-sm">
-          Get ready for a karate class with a kick in it.
-        </p>
+    <footer className="bg-white rounded-lg shadow m-4 bottom-0 mt-7">
+      <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span className="text-sm sm:text-center">© 2024 <a href="#" className="hover:underline">A-Plus Taylor&apos;s Martial Arts and Fitness</a>. All Rights Reserved.
+    </span>
+        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0">
+          <li>
+            <a href="#" className="hover:underline me-4 md:me-6">About</a>
+          </li>
+          <li>
+            <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
+          </li>
+          <li>
+            <a href="#" className="hover:underline">Contact</a>
+          </li>
+        </ul>
       </div>
     </footer>
   )

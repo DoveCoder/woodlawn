@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Nav = () => {
   return (
     <header className="bg-white bg-opacity-5 text-black shadow-lg">
@@ -9,22 +11,22 @@ const Nav = () => {
         <nav className="contents font-semibold text-base lg:text-lg hidden md:block">
           <ul className="mx-auto flex item-center">
             <li className="p-5 xl:p-8 active">
-              <a href="#">
+              <a href={'/'}>
                 <span>Home</span>
               </a>
             </li>
             <li className="p-5 xl:p-8 active">
-              <a href="#">
+              <a href={'/classes'}>
                 <span>Classes</span>
               </a>
             </li>
             <li className="p-5 xl:p-8 active">
-              <a href="#">
+              <Link href={'/schedule'}>
                 <span>Schedule</span>
-              </a>
+              </Link>
             </li>
             <li className="p-5 xl:p-8 active">
-              <a href="#">
+              <a href={'/about'}>
                 <span>About Us</span>
               </a>
             </li>
