@@ -14,10 +14,12 @@ const ScheduleCard = () => {
     })
   }
 
-  const onChangeHandler = (e) => {
+  const onChangeHandler = (e: any) => {
     const index = e.target.selectedIndex;
     const el = e.target.childNodes[index];
     const option: number = el.getAttribute('id');
+
+    console.log(e)
 
     showTimes(Number(option))
   }
