@@ -2,14 +2,14 @@
 import {CLASSES, HEADER, TIMES} from "@/app/constants/schedule";
 import {useEffect, useState} from "react";
 
+
 const ScheduleCard = () => {
-  const [times, setTimes] = useState([]);
+  const [times, setTimes] = useState(Array);
 
   const showTimes = (id:number) => {
     TIMES.filter((time) => {
       if (time.id === id) {
         setTimes(times => time.time)
-        console.log(times)
       }
     })
   }
@@ -19,7 +19,6 @@ const ScheduleCard = () => {
     const el = e.target.childNodes[index];
     const option: number = el.getAttribute('id');
 
-    console.log(Number(option))
     showTimes(Number(option))
   }
 
